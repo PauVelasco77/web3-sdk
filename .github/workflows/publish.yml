@@ -24,15 +24,15 @@ jobs:
           scope: '@pauvelasco'
           
       - name: Install dependencies
-        run: npm ci
+        run: bun ci
         
       - name: Run tests
-        run: npm test
+        run: bun test
         
       - name: Build package
-        run: npm run build
+        run: bun run build
         
       - name: Publish to GitHub Packages
-        run: npm publish
+        run: bun publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
