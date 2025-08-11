@@ -15,13 +15,13 @@ A modern TypeScript SDK for Ethereum and ERC20 token interactions, built with Vi
 
 ```bash
 # npm
-npm install web3-sdk
+npm install my-web3-sdk
 
 # yarn
-yarn add web3-sdk
+yarn add my-web3-sdk
 
 # pnpm
-pnpm add web3-sdk
+pnpm add my-web3-sdk
 ```
 
 ## Quick Start
@@ -29,7 +29,7 @@ pnpm add web3-sdk
 ### Basic Setup
 
 ```typescript
-import { Web3SDK, ERC20 } from 'web3-sdk';
+import { Web3SDK, ERC20 } from 'my-web3-sdk';
 
 // Initialize SDK with your RPC endpoint
 const sdk = new Web3SDK({
