@@ -1,7 +1,7 @@
 {
   "name": "my-web3-sdk",
-  "version": "0.1.0",
-  "description": "SDK Web3 en TypeScript con Viem y build con tsup",
+  "version": "0.0.0",
+  "description": "Web3 SDK for Ethereum and ERC20 token interactions",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,7 @@
     "ethereum",
     "tsup"
   ],
-  "author": "Tu Nombre",
+  "author": "Pau Velasco",
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/parser": "^6.21.0",
