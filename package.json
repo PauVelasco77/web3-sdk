@@ -1,0 +1,42 @@
+{
+  "name": "my-web3-sdk",
+  "version": "0.1.0",
+  "description": "SDK Web3 en TypeScript con Viem y build con tsup",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run"
+  },
+  "keywords": [
+    "sdk",
+    "typescript",
+    "web3",
+    "viem",
+    "ethereum",
+    "tsup"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.1",
+    "typescript": "^5.4.0",
+    "vitest": "^1.3.0"
+  },
+  "dependencies": {
+    "viem": "^2.7.1"
+  }
+}
