@@ -1,9 +1,12 @@
 {
   "name": "@pauvelasco/my-web3-sdk",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/PauVelasco77/web3-sdk"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "description": "Web3 SDK for Ethereum and ERC20 token interactions",
   "main": "dist/index.cjs",
@@ -16,7 +19,8 @@
     "format": "prettier --write .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run"
+    "test:coverage": "vitest run",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "sdk",
