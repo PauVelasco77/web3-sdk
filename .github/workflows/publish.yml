@@ -24,7 +24,7 @@ jobs:
           scope: '@pauvelasco'
           
       - name: Install dependencies
-        run: bun ci
+        run: bun install
         
       - name: Run tests
         run: bun test
