@@ -27,12 +27,12 @@ jobs:
         run: bun install
         
       - name: Run tests
-        run: bun test
+        run: bun run test
         
       - name: Build package
         run: bun run build
         
       - name: Publish to GitHub Packages
-        run: bun publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
